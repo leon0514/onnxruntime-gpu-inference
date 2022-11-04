@@ -9,7 +9,7 @@
 
 ## 一些细节
 在cuda中实现预处理， 下面几句代码将RGBRGBRGB排列的数据改为RRR...GGG...BBB...排列， 并做归一化处理， 除以255
-```
+```C++
 float* pdst = output_image + dy * output_image_width + dx;
 // RRR...GGG...BBB.. 255
 // 归一化
