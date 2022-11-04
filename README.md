@@ -17,4 +17,4 @@ pdst[0] = c2 / 255.0;
 pdst[output_image_width*output_image_height] = c1 / 255.0; 
 pdst[2*output_image_width*output_image_height] = c0 / 255.0;
 ```
-除以255之后得到的是浮点值，output_image需要时float指针
+除以255之后得到的是浮点值，output_image需要用float指针
