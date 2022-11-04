@@ -8,7 +8,8 @@
  
 
 ## 一些细节
-在cuda中实现预处理， 下面几句代码将RGBRGBRGB排列的数据改为RRR...GGG...BBB...排列， 并做归一化处理， 除以255
+在cuda中实现预处理， 下面几句代码将BGRBGRBGR排列的数据改为RRR...GGG...BBB...排列， 并做归一化处理， 除以255。
+opencv 读取的图片是BGRBGRBGR排列的
 ```C++
 float* pdst = output_image + dy * output_image_width + dx;
 // RRR...GGG...BBB.. 255
