@@ -1,0 +1,6 @@
+# onnxruntime-gpu-inference
+使用gpu推理onnx yolov5模型，同时将前处理和后处理都是用gpu处理
+
+## 感谢杜老
+1. cuda warpaffine前处理代码是按照杜老b站上的教学一点点敲的
+2. cuda yolov5后处理是从https://github.com/shouxieai/learning-cuda-trt搬过来的
