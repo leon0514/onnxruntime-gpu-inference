@@ -3,4 +3,5 @@
 
 ## 感谢杜老
 1. cuda warpaffine前处理代码是按照杜老b站上的教学一点点敲的
-2. cuda yolov5后处理是从https://github.com/shouxieai/learning-cuda-trt搬过来的
+2. cuda yolov5后处理是从 https://github.com/shouxieai/learning-cuda-trt 搬过来的
+ 
