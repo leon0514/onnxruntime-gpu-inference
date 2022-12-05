@@ -206,7 +206,7 @@ AffineMatrixImage warpaffine(std::string image_path, int width, int height)
     float *affine_device = nullptr;
 
     cudaStream_t stream = nullptr;
-    checkRuntime(cudaStreamCreate(&stream));
+    // checkRuntime(cudaStreamCreate(&stream));
     checkRuntime(cudaMalloc(&image_deivce, image_bytes));
     checkRuntime(cudaMalloc(&affine_device, affine_bytes));
     checkRuntime(cudaMemcpy(image_deivce, image.data, image_bytes, cudaMemcpyHostToDevice));
